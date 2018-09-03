@@ -82,7 +82,7 @@ header .wrapper .homelink-group {
 
 .logo {
   flex-shrink: 0;
-  background-image: url("../img/logo.svg");
+  background-image: url("img/logo.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
