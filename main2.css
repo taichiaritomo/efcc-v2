@@ -292,7 +292,7 @@ footer a:hover {
 
 
 
-@media (max-width: 791px) { 
+@media screen and (max-width: 791px) { 
   
   header .wrapper {
     width: 100%;
