@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Edgewater Family Care</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="main2.css">
+  
+  <!-- Google Maps -->
+  <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?v=3">
+  </script>
+  <script type="text/javascript" src="js/maps.js"></script>
+</head>
+
+
+  
+  
+  <header>
+    <div class="wrapper">
+      <div class="homelink-group">
+        <div class="logo" onclick="location.href='index.html'">
+        </div>
+        <div class="homelink"><a href="index.html">Edgewater Family Care Center</a></div>
+      </div>
+      
+      <div class="menu-group">
+        <div class="menu-option not-selected"><a href="doctors.html">Our Doctors</a></div>
+        <div class="menu-option not-selected"><a href="treatments.html">Treatments & Services</a></div>
+<!--        <div class="menu-option schedule"><a target="_blank" href="https://www.zocdoc.com/doctor/chika-kuwama-md-128802">Schedule an appointment</a></div>-->
+      </div>
+    </div>
+  </header>
+  
+<body>
+  
+  <div id="main" class="faded">
+
+    <div class="wrapper">
+      <div id="home-info">
+
+        <section id="treatments-services">
+          <div class="home-info-img-container">
+            <img class="home-info-img" src="img/the_family.png"/>
+          </div>
+          <p>
+            We're a family clinic, so we understand primary care. Our services include check-ups and common disease treatment.
+          </p>
+          <a class="pagelink" href="treatments.html">
+            Treatments & Services
+          </a>
+        </section>
+
+        <section id="doctors">
+          <div class="home-info-img-container">
+            <img class="home-info-img" src="img/doctor_kuwama.png"/>
+          </div>
+          <p>
+            Our experienced staff have been practicing for over twenty years.
+          </p>
+          <a class="pagelink" href="doctors.html">
+            Our Doctors
+          </a>
+        </section>
+
+        <section id="coverage">
+          <div class="home-info-img-container">
+            <img class="home-info-img" src="img/logoset.png"/>
+          </div>
+          <p>
+            We accept several major health insurance providers, plus some from overseas. Contact us for more info regarding coverage.
+          </p>
+        </section>
+      </div>
+    </div>
+    
+    
+    <div id="visit-info-wrapper">
+      <div id="visit-info">
+        <section id="contact">
+          <h3>CONTACT</h3>
+          <div class="contact-options">
+            <div class="contact-options-label">Phone
+            </div>(201)-943-4040<br>
+            <div class="contact-options-label">Fax
+            </div>(201)-941-4599 <br>
+            <div class="contact-options-label">Email
+            </div>info@edgewater-fcc.com
+          </div>
+        </section>
+
+        <section id="visit">
+          <h3>VISIT</h3>
+          <a target="_blank" href="https://www.google.com/maps/place/Edgewater+Family+Care/@40.8200375,-73.9771488,17.23z/data=!4m2!3m1!1s0x89c2f64c1c0ffb4d:0x2033da58fb023bff">725 River Road, Suite #202,
+                <br> Edgewater, NJ, 07020 </a>
+          <br><br>
+          Mon-Fri: 9AM - 5PM<br>
+          Sat: 9AM - 2:30PM
+
+          <div class="map" style="padding: 0">
+            <div id="map-canvas" style="height: 100%; width: 100%"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+    
+<!--
+    <section class="colophon">
+          © Edgewater Family Care, All Rights reserved.
+        </section>
+-->
+    
+  </div>
+
+</body>
+
+</html>
